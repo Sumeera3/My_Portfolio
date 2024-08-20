@@ -8,11 +8,7 @@ import './components/Style.css';
 function App() {
   return (
     <>
-    {/* <Header></Header> */}
     <Body></Body>
-    
-      {/* <Routes path='/header' element={<Header></Header>}></Routes> */}
-      
     </>
   );
 }
