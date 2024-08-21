@@ -24,7 +24,7 @@ function Body() {
         </div>
 
         <div className='border-img'>
-          <img src={pimg} alt="" className='main-img' ></img>
+          {/* <img src={pimg} alt="" className='main-img' ></img> */}
         </div>
       </div>
       <About></About>
