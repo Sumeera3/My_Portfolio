@@ -13,9 +13,9 @@ function About() {
 
         </p>
         
-        <div className='img '>
+        {/* <div className='img '>
             <img src={Image} alt="" className='w-100'></img>
-          </div>
+          </div> */}
 
       </div>
 

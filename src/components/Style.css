@@ -35,19 +35,21 @@
 }
 .About{
     width: fit-content;
+    /* height: 20rem !important;
+    overflow-y: auto; */
     /* margin: 2rem 0rem 0rem 7rem !important; */
 
 }
 .text-3{
     animation:text  2s 1s 1 ease alternate backwards;
 }
-.img{
+/* .img{
     width: 100%;
     height: fit-content;
     border: 2px solid rgb(235, 14, 14);
     box-shadow: 3px 3px 12px 3px rgba(255, 3, 3, 0.756);
     margin: 30px;
-}
+} */
 
 .skill-bar{
     height: fit-content;
