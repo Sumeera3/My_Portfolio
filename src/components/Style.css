@@ -7,6 +7,7 @@
    width:100%;
     padding-bottom: 12%;
     padding-top: 12%;
+    align-items: center;
 }
 .body-text{
     font-size:3rem !important;
@@ -17,16 +18,17 @@
 
 }
 .outer-box{
-    width: 65%;
+    width: 100%;
     /* position: absolute; */
 }
-.border-img{
+/* .border-img{ */
     /* height: 2rem; */
-    border-radius: 100%;
-    box-shadow: 0rem 0rem 30rem 10rem #ff0000d9;
-    opacity: 0.7;
-    padding: 8rem;
-}
+    /* border-radius: 100%; */
+    /* box-shadow: 0rem 0rem 30rem 10rem #ff0000d9; */
+    /* opacity: 0.7; */
+    /* padding: 8rem; */
+    /* display: none; */
+/* } */
 .navbar{
     background-color: black;
     position: fixed;
@@ -190,6 +192,8 @@ textarea{
     }
     .outer-box{
         width: 36%;
+        margin-top: 4rem !important;
+        margin-bottom: 4rem !important;
     }
     .body-text{
         font-size:2rem !important;

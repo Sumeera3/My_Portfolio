@@ -6,11 +6,12 @@ import Projects from './Projects';
 // import pimg from '../Images/pimg.png';
 import pimg from '../Images/proimg.png';
 import Contact from './Contact';
+import myimg from '../Images/myimg.png'
 function Body() {
   return (
     <>
       <Header></Header>
-      <div className='Body d-flex my-auto py-6' >
+      <div className='Body d-flex  py-0' >
         <div className=' outer-box my-auto '>
           <div className='body-text text-light  my-auto'>
             <p className="mb-0 About-text  ">HELLO</p>
@@ -24,7 +25,7 @@ function Body() {
         </div>
 
         <div className='border-img'>
-          {/* <img src={pimg} alt="" className='main-img' ></img> */}
+          <img src={myimg} alt="" className='w-100' ></img>
         </div>
       </div>
       <About></About>
