@@ -7,6 +7,7 @@ import Projects from './Projects';
 import pimg from '../Images/proimg.png';
 import Contact from './Contact';
 import myimg from '../Images/myimg.png'
+// import profile_image from '../Images/profile_image.jpg'
 function Body() {
   return (
     <>
@@ -25,7 +26,7 @@ function Body() {
         </div>
 
         <div className='border-img'>
-          <img src={myimg} alt="" className='w-100' ></img>
+          {/* <img src={myimg} alt="" className='w-100' ></img> */}
         </div>
       </div>
       <About></About>

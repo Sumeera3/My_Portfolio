@@ -19,6 +19,8 @@
 }
 .outer-box{
     width: 100%;
+    margin-top: 12rem !important;
+    margin-bottom: 11rem !important;
     /* position: absolute; */
 }
 /* .border-img{ */
