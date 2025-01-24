@@ -17,7 +17,7 @@ const Projects = () => {
               <img src={p1image} alt="error" className='w-100'></img>
             </div>
             <div className='text '>
-              <p className='text-light text-center '><h2 className='text-danger'>Personal-Portfolio</h2> Website using HTML CSS and JS </p>
+              <p className='text-dark text-center '><h2 className='text-danger'>Personal-Portfolio</h2> Website using HTML CSS and JS </p>
               </div>
               <button className='rounded bg-danger text-center project-btn mb-0'>Check Here</button>
 
@@ -29,7 +29,7 @@ const Projects = () => {
             </div>
 
             <div className='text  '>
-              <p className='text-light text-center '><h2 className='text-danger'>Expence-Tracker</h2> Website using React </p>
+              <p className='text-dark text-center '><h2 className='text-danger'>Expence-Tracker</h2> Website using React </p>
               </div>
               <button className='rounded bg-danger text-center project-btn'>Check Here</button>
           </div>

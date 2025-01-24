@@ -14,7 +14,7 @@ function Body() {
       <Header></Header>
       <div className='Body d-flex  py-0' >
         <div className=' outer-box my-auto '>
-          <div className='body-text text-light  my-auto'>
+          <div className='body-text text-dark  my-auto'>
             <p className="mb-0 About-text  ">HELLO</p>
             <p className='mb-0 About-text'>I'm Sumeera</p>
             <p className='fs-6 mb-0 text-3'>PASSIONATE WEB DEVELOPER</p>
@@ -29,10 +29,12 @@ function Body() {
           {/* <img src={myimg} alt="" className='w-100' ></img> */}
         </div>
       </div>
+      <div className='web-body m-0 p-0'>
       <About></About>
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
+      </div>
 
     </>
 
