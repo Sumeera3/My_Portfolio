@@ -195,6 +195,10 @@ textarea{
     .border-img{
         display: none;
     }
+    .About{
+        height: 20rem;
+        overflow-y: auto;
+    }
     .Projects{
         margin: 0;
         /* width: 100%; */
@@ -355,7 +359,7 @@ textarea{
         scale: 1;
     }
 }
-.web-body{
-    /* animation: body-animation linear; */
+/* .web-body{
+ animation: body-animation linear; 
     animation-timeline: view();
-}
+} */
