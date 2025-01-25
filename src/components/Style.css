@@ -331,7 +331,7 @@ textarea{
 .skill-per{
     animation: progress;
     animation-timeline: view();
-    animation-range: entry 0% cover;
+    animation-range: entry 0% cover 100%;
 }
 @keyframes project-img{
     from{
