@@ -19,8 +19,8 @@ function Body() {
             <p className='mb-0 About-text'>I'm Sumeera</p>
             <p className='fs-6 mb-0 text-3'>PASSIONATE WEB DEVELOPER</p>
             <div className='d-flex justify-content-between mt-4 buttons'>
-              <button className='bg-danger  border-rounded btn p-1'>View Resume</button>
-              <button className='bg-danger  border-rounded btn p-1'>Hire Me Now</button>
+              <button className='bg-light  border-rounded btn p-1'>View Resume</button>
+              <button className='bg-light  border-rounded btn p-1'>Hire Me Now</button>
             </div>
           </div>
         </div>

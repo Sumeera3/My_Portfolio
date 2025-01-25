@@ -3,7 +3,7 @@
     color: red;
 }
 .Body{
-    background-color: #FF00FF;
+    background-color: #e92084d1;
    width:100%;
     padding-bottom: 12%;
     padding-top: 12%;
@@ -15,6 +15,7 @@
     width: fit-content;
     height: fit-content;
     animation:animate  1s 1s 1 ease-in alternate both;
+    color: white !important;
 
 }
 .outer-box{
@@ -35,7 +36,7 @@
     /* display: none; */
 /* } */
 .navbar{
-    background-color: black;
+    background-color: #f2f1f18c;
     position: fixed;
     opacity: 0.7;
     animation-direction: normal;
@@ -43,11 +44,15 @@
 }
 .About{
     width: fit-content;
-    background-color: #ADD8E6 !important;
+    background-color: #e1a7c417 !important;
     /* height: 20rem !important;
     overflow-y: auto; */
     /* margin: 2rem 0rem 0rem 7rem !important; */
+    
 
+}
+.heading{
+    color: #d63384;
 }
 .text-3{
     animation:text  2s 1s 1 ease alternate backwards;
@@ -60,12 +65,14 @@
     margin: 30px;
 } */
 
+
+
 .skill-bar{
     height: fit-content;
 }
 .skill-per{
     position: relative;
-    background-color:red;
+    background-color: var(--bs-code-color);
     animation:progress 4s   ease-in-out  forwards;
     opacity: 0;
 }
@@ -92,11 +99,12 @@
 }
 .skills{
     width: 100%;
-    box-shadow: 0rem 0rem 10px 0px black;
+    /* box-shadow: 0rem 0rem 10px 0px black; */
    
 }
 .line{
     width: 20%;
+    background-color:var(--bs-pink) !important;
 }
 .Projects{
     margin: -20rem 1rem 0rem 40%;
@@ -113,14 +121,18 @@
     align-items: center;
 }
 .project-box{
-    box-shadow: 0rem 0rem 10px 0px black;
+    /* box-shadow: 0rem 0rem 10px 0px black; */
     /* width: max-content !important; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: #d6338412 !important; */
 
 
+}
+.project-text{
+    color: #d63384;
 }
 .project-items::-webkit-scrollbar {
     display: none;
@@ -135,6 +147,10 @@
     /* animation:project-img 0.1s 1  ease-in-out forwards;  */
     opacity: 0;
 
+}
+.project-btn{
+    margin-bottom: 5% !important;
+    margin-top: 5% !important;
 }
 
 .text{

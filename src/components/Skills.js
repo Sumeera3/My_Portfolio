@@ -4,8 +4,9 @@ function Skills() {
   return (
     <>
     <div className='technical m-0 p-0 '>
-        <h3 className=' mb-0 text-center'> Skills</h3><div className='pt-1 border line  rounded mb-3 mt-0 bg-danger mx-auto'></div>
-       <div className='skills text-center  bg-dark text-dark px-auto'>
+        <h3 className=' mb-0 text-center heading'> Skills</h3>
+        <div className='pt-1 border line  rounded mb-3 mt-0 bg-danger mx-auto'></div>
+       <div className='skills text-center   text-dark px-auto'>
         <div className='skill-box'>
           <p className='skill-tittle mt-0 mb-0 text-start '>Html</p>
           <div className='rounded w-75 border  skill-bar mx-auto'>
