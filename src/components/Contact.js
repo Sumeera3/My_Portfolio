@@ -10,13 +10,13 @@ const Contact = () => {
                 <h4 className='text-center'>Let's Work Together</h4>
 
                 <div className='d-flex justify-content-around main-box'>
-                    <div className='left-box text-center  border bg-dark text-dark '>
+                    <div className='left-box text-center    text-light'>
                         <h5>Find Me</h5>
                         <p>syedsumeera92@gmail.com</p>
                         <p>Phone: 8688216065</p>
                     </div >
 
-                    <div className='right-box border p-2 w-50 bg-dark text-dark '>
+                    <div className='right-box  p-2 w-50  text-dark '>
                         <form className='mx-auto text-center'>
                             <div className='d-flex'>
                             <input placeholder='Your Name' className='rounded w-50 mx-1 p-1 px-2'></input>

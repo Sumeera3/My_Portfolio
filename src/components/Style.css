@@ -175,16 +175,18 @@ textarea{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0rem 0rem 10px 0px black;
+    /* box-shadow: 0rem 0rem 10px 0px black; */
     width: 40%;
 }
 .right-box{
-    box-shadow: 0rem 0rem 10px 0px black;
+    /* box-shadow: 0rem 0rem 10px 0px black; */
 }
 .technical{
     width: 35%;
 }
-
+.main-box{
+    background-color: #d63384 !important;
+}
 
 @media only screen and (max-width:640px){
     .border-img{
@@ -246,6 +248,7 @@ textarea{
         flex-direction: column;
     justify-content: center !important;
     align-items: center;
+    background-color: #d63384 !important;
     }
     .left-box{
         width: 90% !important;
