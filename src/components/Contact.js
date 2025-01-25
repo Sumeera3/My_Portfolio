@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
             <div className='mt-3'>
-            <h3 className=' mb-0 text-center'> Contact Us</h3>
+            <h3 className=' mb-0 text-center heading'> Contact Us</h3>
             <div className='pt-1 border line  rounded mb-3 mt-0 bg-danger mx-auto'></div>
             <div className=' '>
                 <h4 className='text-center'>Let's Work Together</h4>
