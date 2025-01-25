@@ -74,6 +74,8 @@
     position: relative;
     background-color: var(--bs-code-color);
     animation:progress 4s   ease-in-out  forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 100%;
     opacity: 0;
 }
 .skill-tittle{
@@ -328,11 +330,11 @@ textarea{
     }
 }
 
-.skill-per{
+/* .skill-per{
     animation: progress;
     animation-timeline: view();
     animation-range: entry 0% cover 100%;
-}
+} */
 @keyframes project-img{
     from{
         transform: translatey(0);
