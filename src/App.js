@@ -8,7 +8,7 @@ import './components/Style.css';
 function App() {
   return (
     <>
-    <Body></Body>
+      <Body></Body>
     </>
   );
 }
