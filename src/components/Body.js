@@ -7,7 +7,7 @@ import Projects from './Projects';
 import pimg from '../Images/proimg.png';
 import Contact from './Contact';
 import myimg from '../Images/myimg.png';
-import MyResume from '../Images/MyResume.pdf';
+// import MyResume from '.../pulic/MyResume.pdf';
 // import profile_image from '../Images/profile_image.jpg'
 function Body() {
   return (
@@ -20,7 +20,7 @@ function Body() {
             <p className='mb-0 About-text'>I'm Sumeera</p>
             <p className='fs-6 mb-0 text-3'>PASSIONATE WEB DEVELOPER</p>
             <div className='d-flex justify-content-between mt-4 buttons'>
-              <a href={MyResume} target="_blank" className='bg-light  border-rounded btn p-1'>View Resume</a>
+              <a href='/MyResume.pdf' target="_blank" className='bg-light  border-rounded btn p-1'>View Resume</a>
               <button className='bg-light  border-rounded btn p-1'>Hire Me Now</button>
             </div>
           </div>
