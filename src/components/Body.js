@@ -16,10 +16,10 @@ function Body() {
       <div className='Body d-flex  py-0' >
         <div className=' outer-box my-auto '>
           <div className='body-text text-dark  my-auto'>
-            <p className="mb-0 About-text  ">HELLO</p>
-            <p className='mb-0 About-text'>I'm Sumeera</p>
-            <p className='fs-6 mb-0 text-3'>PASSIONATE WEB DEVELOPER</p>
-            <div className='d-flex justify-content-between mt-4 buttons'>
+            <p className="mb-0 About-text  ">HELLO I'm Sumeera</p>
+            {/* <p className='mb-0 About-text'>I'm Sumeera</p> */}
+            <p className='fs-6 mb-0 text-center'>PASSIONATE WEB DEVELOPER</p>
+            <div className='d-flex justify-content-evenly mt-4 buttons'>
               <a href='/MyResume.pdf' target="_blank" className='bg-light  border-rounded btn p-1'>View Resume</a>
               <button className='bg-light  border-rounded btn p-1'>Hire Me Now</button>
             </div>
