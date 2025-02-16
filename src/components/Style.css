@@ -60,6 +60,7 @@
 }
 .heading{
     color: #d63384;
+    margin-top: 1rem !important;
 }
 .text-3{
     animation:text  2s 1s 1 ease alternate backwards;
