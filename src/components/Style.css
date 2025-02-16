@@ -18,6 +18,10 @@
     color: white !important;
 
 }
+
+.btn:hover{
+    background-color: #d63384 !important;
+}
 .outer-box{
     width: 100%;
     margin-top: 12rem !important;
