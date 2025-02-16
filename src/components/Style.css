@@ -185,6 +185,8 @@
 .project-btn{
     margin-bottom: 5% !important;
     margin-top: 5% !important;
+    text-decoration: none;
+    background-color: aliceblue;
 }
 
 .text{

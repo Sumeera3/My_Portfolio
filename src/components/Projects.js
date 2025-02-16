@@ -19,7 +19,9 @@ const Projects = () => {
             <div className='text '>
               <p className='text-dark text-center '><h2 className='project-text'>Personal-Portfolio</h2> Website using HTML CSS and JS </p>
               </div>
-              <button className='rounded  text-center project-btn mb-0'>Check Here</button>
+              {/* <button className='rounded  text-center project-btn mb-0'>Check Here</button> */}
+              <a href='https://my-portfolio-ehwa.onrender.com'  className='rounded  text-center project-btn text-dark border p-1 '>Check Here</a>
+ 
 
           </div>
 
@@ -31,7 +33,7 @@ const Projects = () => {
             <div className='text  '>
               <p className='text-dark text-center '><h2 className='project-text'>Expence-Tracker</h2> Website using React </p>
               </div>
-              <button className='rounded  text-center project-btn'>Check Here</button>
+              <a href='https://expensetracker-frontend-aa7o.onrender.com'  className='rounded  text-center project-btn text-dark border p-1 '>Check Here</a>
           </div>
           
 
