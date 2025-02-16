@@ -65,8 +65,8 @@ function Skills() {
         <div className='skill-box '>
           <p className='skill-tittle  mt-0 mb-0 text-start'>React</p>
           <div className='rounded w-75 border  skill-bar mx-auto '>
-            <div className='skill-per rounded  border   python'>
-              <span className='per'>40%</span>
+            <div className='skill-per rounded  border   react'>
+              <span className='per'>60%</span>
             </div>
 
           </div>
@@ -77,7 +77,7 @@ function Skills() {
         <div className='skill-box '>
           <p className='skill-tittle  mt-0 mb-0 text-start'>Mongodb</p>
           <div className='rounded w-75 border  skill-bar mx-auto '>
-            <div className='skill-per rounded  border   python'>
+            <div className='skill-per rounded  border   Mb'>
               <span className='per'>40%</span>
             </div>
 

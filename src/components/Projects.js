@@ -12,7 +12,7 @@ const Projects = () => {
         <h3 className='text-center heading mb-0'>MY Projects</h3><div className='pt-1 border line mx-auto rounded mb-3 mt-0 bg-danger'></div>
         <div className='d-flex w-100  project-items'>
           
-          <div className=' w-50  project-box border' >
+          <div className=' col-12 project-box border mx-3' >
             <div className='pimg  p-2 m-3 mx-auto'>
               <img src={p1image} alt="error" className='w-100'></img>
             </div>
@@ -23,7 +23,7 @@ const Projects = () => {
 
           </div>
 
-          <div className='border w-50 mx-3  project-box'>
+          <div className='border mx-3  project-box col-12'>
             <div className='pimg  p-2 m-3 mx-auto'>
               <img src={p2image} alt="error" className='w-100'></img>
             </div>
@@ -33,8 +33,6 @@ const Projects = () => {
               </div>
               <button className='rounded  text-center project-btn'>Check Here</button>
           </div>
-
-                    
           
 
         </div>
