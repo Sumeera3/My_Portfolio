@@ -220,6 +220,10 @@ textarea{
         height: 20rem;
         overflow-y: auto;
     }
+    .skill-Education{
+        display: block !important;
+    }
+
     .Projects{
         margin: 0;
         /* width: 100%; */

@@ -33,7 +33,7 @@ function Body() {
       </div>
       <div className='web-body m-0 p-0'>
       <About></About>
-      <div className='d-flex justify-content-around align-items-center'>
+      <div className='d-flex justify-content-around align-items-center skill-Education'>
       <Skills></Skills>
       <Education></Education>
       </div>
