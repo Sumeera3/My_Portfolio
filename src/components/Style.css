@@ -151,7 +151,7 @@
 }
 .project-box{
     /* box-shadow: 0rem 0rem 10px 0px black; */
-    width: 50% !important;
+    /* width: 50% !important; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,7 +241,7 @@ textarea{
     .project-items{
         display: flex !important;
         flex-direction: row;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         height: 100%;
         width: 100% !important;

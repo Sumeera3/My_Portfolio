@@ -12,7 +12,7 @@ const Projects = () => {
         <h3 className='text-center heading mb-0'>MY Projects</h3><div className='pt-1 border line mx-auto rounded mb-3 mt-0 bg-danger'></div>
         <div className='d-flex w-100  project-items'>
           
-          <div className=' col-12 project-box border mx-3' >
+          <div className=' col-6 project-box border mx-3' >
             <div className='pimg  p-2 m-3 mx-auto'>
               <img src={p1image} alt="error" className='w-100'></img>
             </div>
@@ -23,7 +23,7 @@ const Projects = () => {
 
           </div>
 
-          <div className='border mx-3  project-box col-12'>
+          <div className='border mx-3  project-box col-6'>
             <div className='pimg  p-2 m-3 mx-auto'>
               <img src={p2image} alt="error" className='w-100'></img>
             </div>
