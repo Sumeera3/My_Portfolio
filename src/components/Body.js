@@ -7,6 +7,7 @@ import Projects from './Projects';
 import pimg from '../Images/proimg.png';
 import Contact from './Contact';
 import myimg from '../Images/myimg.png';
+import Education from './Education';
 // import MyResume from '.../pulic/MyResume.pdf';
 // import profile_image from '../Images/profile_image.jpg'
 function Body() {
@@ -32,7 +33,10 @@ function Body() {
       </div>
       <div className='web-body m-0 p-0'>
       <About></About>
+      <div className='d-flex justify-content-around'>
       <Skills></Skills>
+      <Education></Education>
+      </div>
       <Projects></Projects>
       <Contact></Contact>
       </div>
