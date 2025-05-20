@@ -4,9 +4,9 @@ import About from './About'
 import Skills from './Skills';
 import Projects from './Projects';
 // import pimg from '../Images/pimg.png';
-import pimg from '../Images/proimg.png';
+// import pimg from '../Images/proimg.png';
 import Contact from './Contact';
-import myimg from '../Images/myimg.png';
+// import myimg from '../Images/myimg.png';
 import Education from './Education';
 // import MyResume from '.../pulic/MyResume.pdf';
 // import profile_image from '../Images/profile_image.jpg'
